@@ -156,6 +156,13 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.venv/
+
+#Mp4,subtitle
+video/
+subtitle/
+*.mp4
+*.dll
 
 # Spyder project settings
 .spyderproject

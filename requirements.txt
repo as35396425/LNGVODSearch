@@ -1,0 +1,8 @@
+﻿# 核心套件：內含 ctranslate2、av(PyAV，內建 ffmpeg)、huggingface_hub、tokenizers
+faster-whisper>=1.0.0
+
+# ---- 以下為 GPU 加速選用套件 ----
+# 純 CPU 環境不需要，這兩個套件加起來要抓好幾百 MB
+# 有 NVIDIA GPU 時取消註解（cuDNN 務必釘在 9.* 版，8.x 會出現另一個 DLL 錯誤）：
+nvidia-cublas-cu12
+nvidia-cudnn-cu12==9.*
